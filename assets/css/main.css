@@ -35,6 +35,8 @@ body {
 
 ol, ul {
 	list-style: none;
+	color: #fcf6f6;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
 }
 
 blockquote, q {
@@ -83,7 +85,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
+		background: #050505;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -95,6 +97,9 @@ input, select, textarea {
 			-webkit-transition: none !important;
 			-ms-transition: none !important;
 			transition: none !important;
+			animation-name: example;
+  			animation-duration: 4s;
+  			animation-delay: 2s;
 		}
 
 	body, input, select, textarea {
@@ -130,13 +135,17 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 0 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #555;
+		
 		line-height: 1em;
 		margin: 0 0 1em 0;
+		text-align: center;
+		animation-name: h1;
+  animation-duration: 8s;
+  animation-delay: 5s;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -147,17 +156,41 @@ input, select, textarea {
 	h1 {
 		font-size: 2.25em;
 		line-height: 1.35em;
+		color: #ffffff;
+		text-align: center;
+		
+			/* animation-duration: 1s;
+			animation-name: slidein; */
+		
+ 
 	}
-
+	/* @keyframes slidein {
+		from {
+		  margin-left: 100%;
+		  width: 300%;
+		}
+	  
+		75% {
+		  font-size: 300%;
+		  margin-left: 25%;
+		  width: 150%;
+		}
+	  
+		to {
+		  margin-left: 0%;
+		  width: 100%;
+		}
+	  } */
 	h2 {
 		font-size: 2em;
 		line-height: 1.35em;
-		
+		color: #584949;
 	}
 
 	h3 {
 		font-size: 1.35em;
 		line-height: 1.5em;
+		
 	
 	}
 
@@ -483,26 +516,11 @@ input, select, textarea {
 					padding-top: 1em;
 				}
 
-		.row {
-			margin-top: 0;
-			margin-left: -2em;
-		}
-
-			.row > * {
-				padding: 0 0 0 2em;
-			}
-
-			.row.gtr-uniform {
-				margin-top: -2em;
-			}
-
-				.row.gtr-uniform > * {
-					padding-top: 2em;
-				}
+		
 
 		.row.gtr-150 {
 			margin-top: 0;
-			margin-left: -3em;
+			margin-left: -20em;
 		}
 
 			.row.gtr-150 > * {
@@ -731,9 +749,7 @@ input, select, textarea {
 					margin-left: -2em;
 				}
 
-					.row > * {
-						padding: 0 0 0 2em;
-					}
+					
 
 					.row.gtr-uniform {
 						margin-top: -2em;
@@ -2054,7 +2070,8 @@ input, select, textarea {
 		}
 
 		header.major p {
-			margin: 0.7em 0 0 0;
+			margin: 0 0 0 0;
+			text-align: center;
 		}
 
 	header.special {
@@ -2413,12 +2430,12 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		margin: 2em 0 2em 0;
 		padding-left: 1em;
 	}
 
 		ul li {
-			padding-left: 0.5em;
+			padding-left:  0.5em;
 		}
 
 		ul.alt {
@@ -2720,6 +2737,7 @@ input, select, textarea {
 		text-indent: 0.125em;
 		text-transform: uppercase;
 		white-space: nowrap;
+		
 	}
 
 		input[type="submit"]:hover,
@@ -2832,7 +2850,7 @@ input, select, textarea {
 			background-attachment: fixed,							fixed;
 			background-image: linear-gradient(45deg, #000428, #734b6d);
 			background-size: auto,							cover;
-			height: 100vh;
+
 			padding-top: 110px;
 		}
 

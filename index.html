@@ -12,27 +12,61 @@
 		<meta http-equiv='cache-control' content='no-cache'> 
 		<meta http-equiv='expires' content='0'> 
 		<meta http-equiv='pragma' content='no-cache'>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="style.css">
+		<!-- Particles.js CSS -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.css">
+		<link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" rel="stylesheet">
 	</head>
 	<body class="is-preload">
-
 		<!-- Header -->
-			<section id="header">
-				<div class="inner">
-					<i class="large material-icons" style="font-size: 50px;">insert_chart</i>
-					<h1>Welcome to <strong>Paulomee Patel's</strong> Data Analytics Portfolio<br /></h1>
-					<p>Turning your data into insights <a href="https://www.linkedin.com/in/paulomeepatel/" target="_blank"><strong> @PaulomeePatel </strong></a></p>
+		<div class="container-xxl">
+			<section class="hero-section" id="particles-js">
+				
+				<nav class="navbar fixed-top navbar-expand-lg ">
+					
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+					  <span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarText">
+					  <ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="#one">ABOUT ME<span class="sr-only">(current)</span></a>
+						  </li>
+						<li class="nav-item">
+						  <a class="nav-link" href="#two">SKILLS<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+						  <a class="nav-link" href="#three">PROJECTS<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+						  <a class="nav-link" href="#four">CONTACT<span class="sr-only">(current)</span></a>
+						</li>
+					  </ul>
+					</div>
+				</nav>
+				<div class="row align-items-center justify-content-center first-section">
+					
+					<div class="text-center">
+					<img src="images/gurl.png"alt="..." class="gurl">
+					<h1 class="mb-4 typewrite">
+						<span class="wrap"></span>
+					</h1>
+					
+					<h2 class="lead">Turning your data into insights <a href="https://www.linkedin.com/in/paulomeepatel/" target="_blank"> @PaulomeePatel </a></h2>
+					</div>
 				</div>
 			</section>
 
 		<!-- One -->
 			<section id="one" class="main style1">
 				<div class="container">
-					<div class="row gtr-150">
+					<div class="row">
 						<div class="col-6 col-12-medium" align="justify">
 							<header class="major">
 								<h2><b><strong>About Me</strong></b></h2>
 							</header>
-							<span align="justify"><b>Hey there, I'm Paulomee Patel.</b><br><br> I am a certified Data analyst with a Master's degree in Electrical and Computer Engineering.<br>
+							<span align="justify"><b>Hey there, I'm Paulomee Patel.</b><br><br> I am a certified Data analyst with a Master's degree in Electrical and Computer Engineering.<br><br>
 								I am a self-directed analyst with a strong background in data analysis and a passion for identifying patterns and trends in data, story-telling and presenting through visuals. I have worked as a Data Analyst for 3 years. I posses ability to translate complex questions into understandable insights.<br><br>
 								I have experience in understanding and articulating different business models, conducting exploratory data analysis to reach important conclusions for future business growth.<br><br>
 							    I am Skilled in data science stack including Machine Learning, NLP, Statistics, Data structure & Algorithm, Data Visualization, TensorFlow, Pytorch, Scikit-Learn, NumPy, Pandas, NumPy, Jupyter Notebook, Flask, FastAPI, Information Retrieval system, and database management. 
@@ -48,8 +82,8 @@
 		<!-- Two -->
 			<section id="two" class="main style2">
 				<div class="container">
-					<div class="row gtr-150">
-						<div class="col-6 col-12-medium">
+					<div class="row">
+						<div class="col-6 col-12-medium"><br><br><br><br>
 							<ul class="major-icons">
 								<li><span class="icon solid style1 major fa-database"></span></li>
 								<li><span class="icon solid style2 major fa-table"></span></li>
@@ -59,7 +93,7 @@
 						</div>
 						<div class="col-6 col-12-medium">
 							<header class="major">
-								<h2><b>Skills</b></h2>
+								<h1><b>Skills</b></h1>
 							</header>
 							<p align="justify"><br>
 								-	<strong>Data Science Stack: </strong>Machine Learning, NLP, Statistics, Data Structure & Algorithm, Data Visualization (Dash & Plotly), TensorFlow, Pytorch, Scikit-Learn, NumPy, Pandas, Jupyter Notebook, Flask, FastAPI, Information Retrieval System.<br><br>
@@ -74,60 +108,63 @@
 
 		<!-- Three -->
 			<section id="three" class="main style1 special">
-				<div class="container">
-					<header class="major">
-						<h2><b><strong> Projects</strong></b></h2>
-					</header>
-					<div class="row gtr-150">
-						<div class="col-4 col-12-medium">
-							<span class="image fit"><img src="images/Cross Selling.jpg" alt="" /></span>
-							<h3><a href="https://github.com/paulomeepatel/Cross-Selling-Recommendation-EDA" target="_blank">Exploratory Data Analysis using Python</a></h3>
-							<p>Performed exploratory data analysis to gain insights for cross-selling of banking products using Python and prepared a dashboard with Tableau.</p>
-							<ul class="actions special">
-								<li><a href="https://github.com/paulomeepatel/Cross-Selling-Recommendation-EDA" target="_blank" class="button">View Project</a></li>
-							</ul>
-						</div>
-						<div class="col-4 col-12-medium">
-							<span class="image fit"><img src="images/GTM Strategy.jpeg" alt="" /></span>
-							<h3><a href="https://github.com/paulomeepatel/G2M-Cab-Investment-Firm" target="_blank">Data Cleaning in Python</a></h3>
-							<p>Consolidated database and implemented data cleaning process in Python for taking a corporate investment decision using Go-2-Market Strategy.</p>
-							<ul class="actions special">
-								<li><a href="https://github.com/paulomeepatel/G2M-Cab-Investment-Firm" target="_blank" class="button">View Project</a></li>
-							</ul>
-						</div>
-						<div class="col-4 col-12-medium">
-							<span class="image fit"><img src="images/Covid 19.jpg" alt="" /></span>
-							<h3><a href="https://github.com/paulomeepatel/Covid19-Data-Exploration-Project" target="_blank">SQL Data Analysis</a></h3>
-							<p>Analyzed real-time data for getting insights using SQL. Designed interactive Tableau dashboard demonstrating key insights on cases, deaths, and vaccine.</p>
-							<ul class="actions special">
-								<li><a href="https://github.com/paulomeepatel/Covid19-Data-Exploration-Project" target="_blank" class="button">View Project</a></li>
-							</ul>
-						</div>
-						
-						<div class="col-4 col-12-medium">
-							<span class="image fit"><img src="images/Bike share.jpg" alt="" /></span>
-							<h3><a href="https://github.com/paulomeepatel/Cyclistic" target="_blank">Data Cleaning and Exploration using R Programming</a></h3>
-							<p>Recommendations to a a bike share company's commercial issue is given by cleaning and analyzing user subscription data using R Programming.</p>
-							<ul class="actions special">
-								<li><a href="https://github.com/paulomeepatel/Cyclistic" target="_blank" class="button">View Project</a></li>
-							</ul>
-						</div>
-						
-						<div class="col-4 col-12-medium">
-							<span class="image fit"><img src="images/tableau.png" alt="" /></span>
-							<h3><a href="https://public.tableau.com/app/profile/paulomeepatel" target="_blank">Tableau Dashboard</a></h3>
-							<p>View some interactive dashboards!</p>
-							<ul class="actions special">
-								<li><a href="https://public.tableau.com/app/profile/paulomeepatel" target="_blank" class="button">Visit</a></li>
-							</ul>
-						</div>
+			<div class="container">	
+			<div class="row justify-content-between">
+
+				<div class="card">
+					<img src="images/Cross Selling.jpg " alt="Image 1">
+					<div class="card-content">
+					  <h2 class="card-title"><a href="https://github.com/paulomeepatel/Cross-Selling-Recommendation-EDA" target="_blank">Exploratory Data Analysis using Python</a></h2>
+					  <p align="justify" class="card-text">Performed exploratory data analysis to gain insights for cross-selling of banking products using Python and prepared a dashboard with Tableau.</p><br>
+					  <a href="https://github.com/paulomeepatel/Cross-Selling-Recommendation-EDA" class="btn btn-primary">View Project</a>					
 					</div>
 				</div>
-			</section>
+				<div class="card">
+					<img src="images/GTM Strategy.jpeg" alt="Image 2">
+					<div class="card-content">
+					  <h2 class="card-title"><a href="https://github.com/paulomeepatel/G2M-Cab-Investment-Firm" target="_blank">Data Cleaning in Python</a></h2>
+					  <p align="justify" class="card-text">Consolidated database and implemented data cleaning process in Python for taking a corporate investment decision using Go-2-Market Strategy.</p>
+					  <a href="https://github.com/paulomeepatel/G2M-Cab-Investment-Firm" class="btn btn-primary">View Project</a>
+					</div>
+				</div>		
+				 <div class="card">
+					<img src="images/Covid 19.jpg" alt="Image 3">
+					<div class="card-content">
+						<h2 class="card-title"><a href="https://github.com/paulomeepatel/Covid19-Data-Exploration-Project" target="_blank">SQL Data Analysis</a></h2>
+						<p align="justify" class="card-text">Analyzed real-time data for getting insights using SQL. Designed interactive Tableau dashboard demonstrating key insights on cases, deaths, and vaccine.</p><br>
+						<a href="https://github.com/paulomeepatel/Covid19-Data-Exploration-Project" class="btn btn-primary">View Project</a>
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-around">
 
+					<div class="card">
+					  <img src="images/Bike share.jpg" alt="Image 4">
+					  <div class="card-content">
+						<h2 class="card-title"><a href="https://github.com/paulomeepatel/Cyclistic" target="_blank">Data Cleaning and Exploration using R Programming</a></h2>
+						<p align="justify" class="card-text">Recommendations to a bike share company's commercial issue is given by cleaning and analyzing user subscription data using R Programming.</p>
+						<a href="https://github.com/paulomeepatel/G2M-Cab-Investment-Firm" class="btn btn-primary">View Project</a>
+					</div>
+					</div>
+					<div class="card">
+					  <img src="images/tableau1.png " alt="Image 5">
+					  <div class="card-content">
+						<h2 class="card-title"><a href="https://public.tableau.com/app/profile/paulomeepatel" target="_blank">Tableau Dashboards</a></h2>
+						<p align="justify" class="card-text">View some interactive dashboards!</p><br><br><br><br><br><br>
+						<a href="https://public.tableau.com/app/profile/paulomeepatel" class="btn btn-primary">View Project</a>
+					  </div>
+				    </div>
+			</div>
+			</div>
+				
+				
+			</section>
+			
+			
 		<!-- Four -->
 			<section id="four" class="main style7 special">
 				<div class="container">
+					
 					<header class="major">
 						<h3 style="color: rgba(255,255,255,0.9);">Connect</h3>
 					</header>
@@ -142,7 +179,7 @@
 					</ul>
 				</div>
 			</section>
-
+		
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
@@ -150,6 +187,11 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+			<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+			<script src="particles-config.js"></script>
 
 	</body>
 </html>
